@@ -1,6 +1,10 @@
-Boodstrap maded restarant site
+#Readme
 
-== The mission
+---
+
+## Boodstrap maded restarant website
+
+### The mission
 
 .Welcome
 A page with one _Jumbotron_ and two panels to show news (promo, events, etc...).
