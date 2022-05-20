@@ -1,5 +1,7 @@
 Boodstrap maded restarant site
 
+== The mission
+
 .Welcome
 A page with one _Jumbotron_ and two panels to show news (promo, events, etc...).
 
