@@ -2,7 +2,7 @@
 
 ---
 
-## Boodstrap maded restarant website
+## Restaurant website made with bootstrap
 
 ### The mission
 
