@@ -1,7 +1,5 @@
 # Readme
 
----
-
 ## Restaurant website made with bootstrap
 
 ### The mission
