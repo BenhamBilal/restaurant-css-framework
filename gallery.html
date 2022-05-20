@@ -24,19 +24,18 @@
     <div class="container-fluid g-0">
       <!-- Head   ######### !!!!!! -->
       <div class="row head g-0">
-        <div class="col-12 col-lg-3 logo d-flex justify-content-center">
+        <div class="col-3 logo d-flex justify-content-center">
           <a href="index.html">
             <img src="./img/Ajouter un titre.png" alt="logo of restaurant" />
           </a>
         </div>
         <div
-          class="col-12 col-lg-9 title d-flex justify-content-center align-items-center flex-column"
+          class="col-9 title d-flex justify-content-center align-items-center flex-column"
         >
           <h1>La Trappatoni</h1>
           <p>Pizzeria Napoltaine</p>
         </div>
       </div>
-
       <!-- Navbar ######!!!!!!! -->
       <div class="row navbar-contain g-0">
         <nav class="navbar navbar-expand-lg">
@@ -57,13 +56,13 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Welcome</a>
+                <a class="nav-link" href="./index.html">Welcome</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./menu.html">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./gallery.html">Gallerie Photos</a>
+                <a class="nav-link" href="#">Gallerie Photos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./restaurant.html">Restaurant</a>
@@ -75,63 +74,83 @@
           </div>
         </nav>
       </div>
-      <!-- Hero ####!!!! -->
-      <div
-        id="carouselExampleControls"
-        class="carousel slide carousel-img"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/pizza1.jpg" class="d-block w-100" alt="pizza 1" />
-          </div>
-          <div class="carousel-item">
-            <img src="./img/pizza2.jpg" class="d-block w-100" alt="pizza 2" />
-          </div>
-          <div class="carousel-item">
-            <img src="./img/Pizza3.jpg" class="d-block w-100" alt="pizza 3" />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- Jumbotron et Cards  ####!!!! -->
 
-      <div class="row blank g-0">
-        <div class="d-none d-lg-block col-lg-2 bg-success"></div>
-        <div class="col-12 col-lg-8">
-          <div class="row justify-content-center">
-            <div class="col-12 col-lg-9 event text-center">
-              <h2>-EVENEMENTS-</h2>
-              <p>
-                Tous les 3ème samedi du mois : Pizza à volonté pour le prix de
-                29€
-              </p>
-              <p>Etudiant : tous les pizza a 50%</p>
-              <button class="btn-event btn-danger">
-                <a href="./gallery.html">Gallery</a>
-              </button>
+      <!-- Gallerie Photos #######!!!!!
+      ----------------------------- -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12 p-5">
+            <!-- Gallery -->
+
+            <!-- Pagination -->
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- End Pagination  -->
+
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="https://i.pinimg.com/564x/c9/30/ee/c930eecb755bbcbc996bc1ba1895e6e3.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+
+                <img
+                  src="https://img.homelavafr.com/178632_0.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://www.argayon-restaurant.be/images/argayon-groupes.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+
+                <img
+                  src="https://static.actu.fr/uploads/2019/09/All-Pizza-Pasta-Buffet.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://www.pizzeria595.be/media/images/gallery/2/big/23.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+
+                <img
+                  src="https://yosoypuebla.com/directorio/wp-content/uploads/2017/04/peter-piper-pizza-puebla-comida.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                />
+              </div>
             </div>
           </div>
+          <!-- End Gallery -->
         </div>
-        <div class="d-none d-lg-block col-lg-2 bg-danger"></div>
       </div>
+
+      <!-- Jumbotron et Cards  ####!!!! -->
+
       <div class="row g-0">
         <div class="col-12 col-lg-4">
           <!-- Jumbotron #### !!!!!! -->

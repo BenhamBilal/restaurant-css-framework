@@ -21,21 +21,24 @@
     />
   </head>
   <body>
-    <div class="container-fluid g-0">
+    <!-- Main Container #### !!!! -->
+
+    <div class="main-contain container-fluid g-0">
       <!-- Head   ######### !!!!!! -->
       <div class="row head g-0">
         <div class="col-12 col-lg-3 logo d-flex justify-content-center">
-          <a href="index.html">
-            <img src="./img/Ajouter un titre.png" alt="logo of restaurant" />
-          </a>
+          <a href="index.html"
+            ><img src="./img/Ajouter un titre.png" alt="logo of restaurant"
+          /></a>
         </div>
         <div
-          class="col-12 col-lg-9 title d-flex justify-content-center align-items-center flex-column"
+          class="col -12 col-lg-9 title d-flex justify-content-center align-items-center flex-column"
         >
           <h1>La Trappatoni</h1>
           <p>Pizzeria Napoltaine</p>
         </div>
       </div>
+      <!-- End head ##### !!!!! -->
 
       <!-- Navbar ######!!!!!!! -->
       <div class="row navbar-contain g-0">
@@ -57,7 +60,7 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">Welcome</a>
+                <a class="nav-link" href="./index.html">Welcome</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./menu.html">Menu</a>
@@ -66,7 +69,7 @@
                 <a class="nav-link" href="./gallery.html">Gallerie Photos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./restaurant.html">Restaurant</a>
+                <a class="nav-link" href="#">Restaurant</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./contact.html">Contact</a>
@@ -75,63 +78,77 @@
           </div>
         </nav>
       </div>
-      <!-- Hero ####!!!! -->
-      <div
-        id="carouselExampleControls"
-        class="carousel slide carousel-img"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/pizza1.jpg" class="d-block w-100" alt="pizza 1" />
-          </div>
-          <div class="carousel-item">
-            <img src="./img/pizza2.jpg" class="d-block w-100" alt="pizza 2" />
-          </div>
-          <div class="carousel-item">
-            <img src="./img/Pizza3.jpg" class="d-block w-100" alt="pizza 3" />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- Jumbotron et Cards  ####!!!! -->
+      <!-- End Navbar #####!!!! -->
 
-      <div class="row blank g-0">
-        <div class="d-none d-lg-block col-lg-2 bg-success"></div>
-        <div class="col-12 col-lg-8">
-          <div class="row justify-content-center">
-            <div class="col-12 col-lg-9 event text-center">
-              <h2>-EVENEMENTS-</h2>
-              <p>
-                Tous les 3ème samedi du mois : Pizza à volonté pour le prix de
-                29€
-              </p>
-              <p>Etudiant : tous les pizza a 50%</p>
-              <button class="btn-event btn-danger">
-                <a href="./gallery.html">Gallery</a>
-              </button>
+      <!-- Main container Map !!!! -->
+
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 p-5 m-2"
+            style="background-color: rgba(246, 237, 225, 0.921)"
+          >
+            <div class="row">
+              <div class="col-12">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.8364782883828!2d4.290421399999999!3d50.8156683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c68f7af726cb%3A0xdbf5111a07c15064!2sChau.%20de%20Mons%201350%2C%201070%20Anderlecht!5e0!3m2!1sfr!2sbe!4v1652982325896!5m2!1sfr!2sbe"
+                  width="100%"
+                  height="450"
+                  style="border-radius: 10px"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-6 paragraphe-map">
+                <div class="row">
+                  <div class="d-none d-lg-block col-lg-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="col-12 col-lg-11">
+                    <h5>La Trappatoni</h5>
+                    <p>Chaussée de Mons 1350</p>
+                    <p>1070 Anderlcht</p>
+                    <p>Belgique</p>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="d-none d-lg-block col-lg-1">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="col-12 col-lg-11">
+                    <p>+32 2 895 12 74</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-2"></div>
+                  <div class="col-10"></div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="row">
+                  <div class="col-lg-1 d-none d-lg-block col-lg-1">
+                    <p><i class="fa-solid fa-bicycle"></i></p>
+                    <p><i class="fa-brands fa-accessible-icon"></i></p>
+                    <p><i class="fa-solid fa-credit-card"></i></p>
+                  </div>
+                  <div class="col-12 col-lg-11">
+                    <p>Parking vélo</p>
+                    <p>Accès personnes à mobilité réduite</p>
+                    <p>Mastercard | Carte de débit | Cash | Visa</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="d-none d-lg-block col-lg-2 bg-danger"></div>
       </div>
+
+      <!-- End Main Container map -->
+
+      <!-- Jumbotron et Cards  ####!!!! -->
       <div class="row g-0">
         <div class="col-12 col-lg-4">
           <!-- Jumbotron #### !!!!!! -->

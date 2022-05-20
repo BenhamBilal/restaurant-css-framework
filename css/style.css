@@ -1,0 +1,103 @@
+@import url(//db.onlinewebfonts.com/c/a831675c355af267d4dade89bf89e1f2?family=29LT+Riwaya);
+body{
+    background-image: url(https://cdn.theculturetrip.com/wp-content/uploads/2021/10/jf6epr-e1634080907396.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-contain{
+}
+/* Head #### */
+.head{
+    background-color: rgb(123,53,10);
+}
+.logo img {
+    width: 180px;
+}
+.title > h1 {
+    font-size: 55px;
+    font-family: "29LT Riwaya", Courier, monospace;
+    color: rgb(90, 178, 90);
+}
+.title > p{
+    font-size: 30px;
+    font-family: "29LT Riwaya", Courier, monospace;
+    color: rgb(227, 227, 227);
+} 
+/* Navbar ######!!!!!!!!  */
+.navbar-contain {
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    background-color: rgba(42, 41, 41, 0.927);
+}
+.navbar-contain a {
+    color: antiquewhite;
+}
+.navbar-contain a:hover{
+    color: rgb(90, 178, 90);
+}
+.navbar-contain li {
+    padding: 0 40px;
+}
+.carousel-img img {
+    width: 100%;
+    height: 600px;
+}
+/* Jimbutron et Cards ####!!!!!  */
+.blank{
+    padding: 30px;
+    height: 300px;
+    
+}
+.event{
+    color: rgb(90, 178, 90);
+    background-color: rgba(250, 235, 215, 0.673);
+}
+.event-cartoon{
+   background-color:  rgba(250, 235, 215, 0.673);
+}
+.btn-event {
+    color: antiquewhite;
+    background-color: red;
+    padding: 5px 10px;
+    border: none;
+}
+.btn-event a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.jumbotron{
+    padding: 50px;
+    background-color: rgb(123,53,10);  
+    color: antiquewhite;
+}
+.jumbotron:hover{  
+    color: rgb(90, 178, 90); 
+}
+.btn-jumbotron{
+    background-color: antiquewhite;  
+    width: 80px;
+    border: none;
+}
+.btn-jumbotron a{
+    text-decoration: none;
+    color:  rgb(123,53,10);  
+}
+.sales {
+    background-image: url(https://www.normandie-tourisme.fr/wp-content/uploads/wpetourisme/le-mont-saint-michel-restaurant-le-pre-sale.jpg);
+    background-size: cover;
+}
+.horaire{
+    background-color: rgba(250, 235, 215, 0.673);
+    font-size: 15px;
+    color: rgb(123,53,10);
+    padding-top: 40px;
+    text-align: center;
+}
+/* Page restaurant map  */
+.paragraphe-map p {
+    margin: 0;
+    font-size: 14px;
+    color: rgba(38, 38, 38, 0.743);
+}
